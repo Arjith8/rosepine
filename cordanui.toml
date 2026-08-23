@@ -1,0 +1,7 @@
+[plugin]
+name = "rosepine-moon"
+version = "0.1.0"
+description = "Rosé Pine Moon theme pack for cordanui — all natural, in the dark"
+
+[capabilities]
+theme = true
