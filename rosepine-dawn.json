@@ -1,0 +1,24 @@
+{
+  "id": "rosepine-dawn",
+  "name": "Rosé Pine Dawn",
+  "colors": {
+    "background": "#faf4ed",
+    "onBackground": "#575279",
+    "surface": "#fffaf3",
+    "onSurface": "#575279",
+    "surfaceVariant": "#f2e9e1",
+    "onSurfaceVariant": "#797593",
+    "primary": "#907aa9",
+    "onPrimary": "#fffaf3",
+    "secondary": "#56949f",
+    "onSecondary": "#fffaf3",
+    "tertiary": "#d7827e",
+    "onTertiary": "#fffaf3",
+    "success": "#286983",
+    "onSuccess": "#fffaf3",
+    "error": "#b4637a",
+    "onError": "#fffaf3",
+    "outline": "#dfdad9",
+    "outlineVariant": "#f4ede8"
+  }
+}

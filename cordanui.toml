@@ -1,7 +1,40 @@
+runtime = "lua"
+
 [plugin]
 name = "rosepine-moon"
-version = "0.1.0"
-description = "Rosé Pine Moon theme pack for cordanui — all natural, in the dark"
+version = "0.4.0"
+description = "Rosé Pine for cordanui — preview main/moon/dawn live, commit with a keypress"
 
 [capabilities]
 theme = true
+
+# Initially highlighted row in the picker (and what plugin.apply_variant
+# accepts). Nothing is committed to cord.g until you confirm in the picker.
+[[field]]
+key = "variant"
+label = "Variant"
+type = "select"
+options = ["rosepine", "rosepine-moon", "rosepine-dawn"]
+default = "rosepine-moon"
+
+# Key that commits the highlighted variant to persistent global styles.
+[[field]]
+key = "commit_key"
+label = "Commit key (picker)"
+type = "select"
+options = ["tab", "s", "enter", "space"]
+default = "tab"
+
+# Open the picker automatically when the plugin activates.
+[[field]]
+key = "open_picker_on_start"
+label = "Open picker on start"
+type = "bool"
+default = "true"
+
+# Escape hatch: wipe all cord.g overrides written by this plugin.
+[[field]]
+key = "reset_overrides"
+label = "Clear committed overrides"
+type = "bool"
+default = "false"

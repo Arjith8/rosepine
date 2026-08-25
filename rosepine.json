@@ -1,0 +1,24 @@
+{
+  "id": "rosepine",
+  "name": "Rosé Pine",
+  "colors": {
+    "background": "#191724",
+    "onBackground": "#e0def4",
+    "surface": "#1f1d2e",
+    "onSurface": "#e0def4",
+    "surfaceVariant": "#26233a",
+    "onSurfaceVariant": "#908caa",
+    "primary": "#c4a7e7",
+    "onPrimary": "#191724",
+    "secondary": "#9ccfd8",
+    "onSecondary": "#191724",
+    "tertiary": "#ebbcba",
+    "onTertiary": "#191724",
+    "success": "#31748f",
+    "onSuccess": "#191724",
+    "error": "#eb6f92",
+    "onError": "#191724",
+    "outline": "#26233a",
+    "outlineVariant": "#403d52"
+  }
+}
