@@ -12,7 +12,12 @@ committed with a keypress.
 
 ## Picking a variant
 
-On activation the picker opens (configurable):
+The picker opens when you press the **configure key** on the plugin
+(plugin manager → select *rosepine-moon* → `c`). This plugin defines its
+own configuration page (`plugin.configure`, spec §10.1a) — the declarative
+field form is not shown; the picker *is* the config page. You can also set
+**Open picker on start** = `true` in the fallback form if you want it at
+launch.
 
 ```
 Pick a variant
@@ -39,7 +44,7 @@ All keys are configurable via *Configure*:
 | --------------------- | ----------------------------------- | -------------- |
 | `variant`             | `rosepine` / `rosepine-moon` / `rosepine-dawn` (aliases `main`/`moon`/`dawn`) | `rosepine-moon` |
 | `commit_key`          | `tab` / `s` / `enter` / `space`     | `tab`          |
-| `open_picker_on_start`| bool                                | `true`         |
+| `open_picker_on_start`| bool                                | `false`        |
 | `reset_overrides`     | bool — wipes everything committed   | `false`        |
 
 ## How it works

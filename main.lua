@@ -149,6 +149,13 @@ function plugin.pick()
   pcall(open_picker)
 end
 
+---Host entry: the user pressed the configure key. The picker IS this
+---plugin's configuration page — preview live, commit with the key.
+function plugin.configure()
+  open_picker()
+  return "picker opened"
+end
+
 ---Preview a variant by id/alias without committing. Returns id or nil.
 function plugin.preview_variant(name)
   local i = normalize(name)
