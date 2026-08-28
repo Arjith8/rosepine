@@ -1,7 +1,7 @@
 runtime = "lua"
 
 [plugin]
-name = "rosepine-moon"
+name = "rosepine"
 version = "0.4.1"
 description = "Rosé Pine for cordanui — preview main/moon/dawn live, commit with a keypress"
 
